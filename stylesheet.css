@@ -87,7 +87,11 @@ body{
     background-color: #272d2d;
     font-family: "League Spartan", sans-serif;
     margin: 0;
-    overflow: hidden;
+}
+
+.about-me{
+    background-color: #0d1015;
+    height: 500px;
 }
 
 div{
@@ -102,7 +106,7 @@ a{
 #navbar{
     position: sticky;
     top: 0;
-    background-color: #1f2424;
+    background-color: #0d1015;
     min-height: 64px;
     overflow: hidden;
 
@@ -130,4 +134,27 @@ a{
     color: #FFF3EB;
     font-weight: 700;
     font-size: 24px;
+}
+
+/* Head-shot/main */
+
+.headshot-section{
+    background-color: #0a0d12;
+    background-image: url(./images/headshot-background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 700px;
+    display: flex;
+    align-items: center;
+}
+
+.headshot-section .container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.headshot-section .img-wrapper img {
+    width: 150px;
+    border-radius: 50%;
 }
