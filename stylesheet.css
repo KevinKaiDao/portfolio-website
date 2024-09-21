@@ -72,20 +72,26 @@ textarea:not([rows]) {
 :target {
   scroll-margin-block: 5ex;
 }
-/* ----------------------- */
 
+button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+/* ----------------------- */
 body{
     background-color: #272d2d;
     font-family: "League Spartan", sans-serif;
     margin: 0;
+    overflow: hidden;
 }
 
 div{
     color: #FFF3EB
-}
-
-.content{
-    height: 1000px;
 }
 
 a{
@@ -108,7 +114,7 @@ a{
 .navbar-right{
     padding: 10px 32px;
     display: flex;
-    gap: 10px;
+    gap: 24px;
 }
 
 .navbar-left{
@@ -116,10 +122,12 @@ a{
 }
 
 .navbar-right button{
+    color: #FFF3EB;
     font-size: 18px;
 }
 
 .navbar-left button{
+    color: #FFF3EB;
     font-weight: 700;
     font-size: 24px;
 }
