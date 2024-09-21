@@ -152,9 +152,23 @@ a{
     width: 100%;
     display: flex;
     justify-content: flex-start;
+    padding: 150px;
+
+    display: flex;
+    align-items: center;
+    gap: 35px;
 }
 
-.headshot-section .img-wrapper img {
+.headshot-section .container .img-wrapper img {
     width: 150px;
     border-radius: 50%;
+}
+
+.heading .heading-mid {
+    font-size: 80px;
+    font-weight: 800;
+}
+
+.heading .heading-bottom {
+    font-size: 20px;
 }
