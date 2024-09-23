@@ -89,17 +89,30 @@ body{
     margin: 0;
 }
 
-.about-me{
-    background-color: #0d1015;
-    height: 500px;
-}
-
 div{
     color: #FFF3EB
 }
 
 a{
     text-decoration: none;
+}
+
+.body-color{
+  background-color: #0d1015;
+}
+
+.section-header {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.content-padding {
+  padding: 8vh 12vh;
+}
+
+.subheader {
+  font-size: 20px;
+  font-weight: 600;
 }
 
 /* NAVBAR */
@@ -173,15 +186,24 @@ a{
 }
 
 /* About Me Section */
-.about-me .about-me-header {
-  font-size: 60px;
-  font-weight: 600;
-}
-
-.about-me .about-me-desc {
+.normal-font {
   font-size: 20px;
 }
 
 .about-me {
-  padding: 13vh;
+  padding-bottom: 0;
+}
+
+/* Skills Section */
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.skills-box {
+  background-color: #111111;
+  border-radius: 30px;
+  flex: 1;
+  padding: 20px;
 }
