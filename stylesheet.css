@@ -137,7 +137,6 @@ a{
 }
 
 /* Head-shot/main */
-
 .headshot-section{
     background-color: #0a0d12;
     background-image: url(./images/headshot-background.png);
@@ -166,9 +165,23 @@ a{
 
 .heading .heading-mid {
     font-size: 80px;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .heading .heading-bottom {
     font-size: 20px;
+}
+
+/* About Me Section */
+.about-me .about-me-header {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.about-me .about-me-desc {
+  font-size: 20px;
+}
+
+.about-me {
+  padding: 13vh;
 }
