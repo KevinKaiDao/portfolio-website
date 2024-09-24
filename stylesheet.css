@@ -108,6 +108,7 @@ a{
 
 .content-padding {
   padding: 8vh 12vh;
+  padding-bottom: 0;
 }
 
 .subheader {
@@ -188,10 +189,6 @@ a{
 /* About Me Section */
 .normal-font {
   font-size: 20px;
-}
-
-.about-me {
-  padding-bottom: 0;
 }
 
 /* Skills Section */
